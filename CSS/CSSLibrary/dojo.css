@@ -1,0 +1,192 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Favorite buttons */
+
+.btn {
+    background-color: rgb(244, 245, 247);
+    color: rgb(71, 121, 122);
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: rgb(71, 121, 122);
+    border-style: solid;
+    margin: 10px;
+}
+
+/* FLEX-Ible Column assignment */
+
+.row {
+    background-color: white;
+    display: flex;
+    color: white;
+
+}
+
+.col, .col-2, .col-3 {
+    background-color: cadetblue;
+    font-family: Arial;
+    font-weight: bold;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+/* Flex Navbar assignment */
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 60px;
+}
+
+.nav-title {
+    font-family: Arial;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-links {
+    font-family: Arial;
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li > a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    background-color: darkcyan;
+    color: white;
+    width: 75px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    cursor: pointer;
+}
+
+/* User Card Assignment */
+
+.container1 {
+    width: 800px;
+    height: 400px;
+    margin-top: 70px;
+    border: 2px solid grey;
+}
+
+.profile {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.profile img {
+    width: 96px;
+    height: 96px;
+}
+
+.blue {
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.white {
+    height: 270px;
+    width: 100%;
+    padding: 15px;
+}
+
+.name {
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.location {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.location img {
+    height: 40px;
+    margin: 0px 5px;
+}
+
+.location h2 {
+    margin: 0px 10px;
+}
+
+.cridentials {
+    margin-top: 15px;
+    height: 70px;
+}
+
+.settings {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings img {
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.settings a {
+    font-size: 18px;
+    margin: 0px 5px;
+}
+

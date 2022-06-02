@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+    flex: 1;
+    height: 600px;
+    background-color: rgb(0, 255, 255);
+}
+
+.main {
+    flex: 3;
+    height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.box {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.navleft {
+    width: 400px;
+    height: 60px;
+    background-color: beige;
+}
+
+.navright {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 255, 34);
+}

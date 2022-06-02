@@ -1,0 +1,28 @@
+.title {
+    background-color: black;
+    color: aqua;
+    font-family: cursive;
+}
+
+.alttitle {
+    background-color: black;
+    color: white;
+}
+
+.list {
+    background-color: blueviolet;
+    color: white;
+    font-family: cursive;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact {
+    background-color: cornflowerblue;
+    color: darkslateblue;
+    font-family: cursive;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: right;
+}

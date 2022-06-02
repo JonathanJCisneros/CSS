@@ -1,0 +1,30 @@
+* {
+    margin: 0px auto;
+}
+body {
+    background-color: black;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, ul {
+    font-family: Arial;
+    color: white;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+ul {
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+}

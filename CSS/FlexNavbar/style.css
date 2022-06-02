@@ -1,0 +1,44 @@
+.nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 60px;
+}
+
+.nav-title {
+    font-family: Arial;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-links {
+    font-family: Arial;
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li > a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    /* aqua was too bright for my eyes lol */
+    background-color: darkcyan;
+    color: white;
+    width: 75px;
+    height: 25px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    cursor: pointer;
+}
+
+
+

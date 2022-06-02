@@ -1,0 +1,35 @@
+.buttons {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.search {
+    background-color: rgb(244, 245, 247);
+    color: rgb(71, 121, 122);
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: rgb(71, 121, 122);
+    border-style: solid;
+    margin: 10px;
+}
+
+.button {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+.account {
+    background-color: dodgerblue;
+    color: white;
+    width: 160px;
+    height: 32px;
+    box-shadow: 3px 3px 0px black;
+    margin: 10px;
+}

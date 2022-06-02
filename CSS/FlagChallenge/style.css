@@ -1,0 +1,28 @@
+.flag {
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: auto;
+}
+.stripe-1 {
+    width: 300px;
+    height: 20px;
+}
+.stripe-2 {
+    background-color: blue;
+    width: 300px;
+    height: 30px;
+}
+img {
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.stripe-3 {
+    background-color: blue;
+    width: 300px;
+    height: 30px;
+}
+.stripe-4 {
+    width: 300px;
+    height: 20px;
+}

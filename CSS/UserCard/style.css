@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    font-family: cursive;
+}
+
+.container {
+    margin: 0px auto;
+    width: 800px;
+    height: 400px;
+    margin-top: 70px;
+    border: 2px solid grey;
+}
+
+.profile {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.profile img {
+    width: 96px;
+    height: 96px;
+}
+
+.blue {
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.white {
+    height: 270px;
+    width: 100%;
+    padding: 15px;
+}
+
+.name {
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.location {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.location img {
+    height: 40px;
+    margin: 0px 5px;
+}
+
+.location h2 {
+    margin: 0px 10px;
+}
+
+.cridentials {
+    margin-top: 15px;
+    height: 70px;
+}
+
+.settings {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings img {
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.settings a {
+    font-size: 18px;
+    margin: 0px 5px;
+}
+

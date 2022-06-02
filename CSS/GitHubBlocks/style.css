@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+}
+
+.block {
+    width: 800px;
+    padding: 15px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#row1 {
+    background-color: cadetblue;
+}
+
+#row2 {
+    background-color: yellow;
+    justify-content: space-evenly;
+}
+
+#row3 {
+    background-color: lightgreen;
+}
+img {
+    height: 200px;
+}

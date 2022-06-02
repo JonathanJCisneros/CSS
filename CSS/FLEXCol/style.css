@@ -1,0 +1,30 @@
+.row {
+    background-color: white;
+    display: flex;
+    color: white;
+
+}
+
+.col, .col-2, .col-3 {
+    background-color: cadetblue;
+    font-family: Arial;
+    font-weight: bold;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
